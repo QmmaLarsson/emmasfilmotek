@@ -1,15 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-        <nav>
-        <RouterLink to="/">Startsida</RouterLink>
-        <RouterLink to="/data">Data</RouterLink>
-        <RouterLink to="/about">Om Vue.js</RouterLink>
-      </nav>
+  <Header />
   <RouterView />
+  <Footer />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
