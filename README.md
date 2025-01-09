@@ -8,7 +8,7 @@ Detta är en webbapplikation för att visa och hantera filmer. Webbapplikationen
 Projektet är en SPA-applikation och skapades med hjälp av Vue.js (https://vuejs.org/).
 
 ### Beskrivning av lösning
-**Hämta, lägga till och radera data**\
+**Hämta, skicka och radera data**\
 För att hämta, skicka och radera data till en extern webbtjänst används Fetch API. De HTTP-anrop som används är GET, POST och DELETE. Den webbtjänst som används är https://moment-2-backend-ramverk-qmmalarsson.onrender.com/movies.
 
 **Movie.vue**\
