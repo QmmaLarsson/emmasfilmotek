@@ -1,10 +1,3 @@
-<script>
-export default {
-  name: "Header",
-};
-</script>
-
-
 <template>
   <header class="bg-red-600 p-4">
     <nav>
@@ -30,4 +23,8 @@ export default {
   </header>
 </template>
 
-<style scoped></style>
+<script>
+export default {
+  name: "Header",
+};
+</script>
