@@ -45,8 +45,6 @@ export default {
         }
       });
 
-      const data = await resp.json();
-
       //Hämta filmerna på nytt efter att filmen har tagits bort
       this.getMovies();
     }
