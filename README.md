@@ -14,7 +14,7 @@ För att hämta, skicka och radera data till en extern webbtjänst används Fetc
 **Movie.vue**\
 Komponenten Movie.vue används för att visa information om varje enskild film. Den tar emot filmens data som props från MovieView.vue och skriver ut informationen i en tabell. Den information som visas är filmen namn, releasedatum och om användaren har sett filmen eller inte. Varje film har även en "Ta bort"-knapp som gör det möjligt föt användaren att radera filmen från listan. Det som händer om användaren klickar på knappen är att en DELETE-förfrågan med filmens individuella ID skickas till webbtjänsten.
 
-**AddMovie.bue**\
+**AddMovie.vue**\
 Komponenten AddMovie.vue används för att lägga till en ny film. Ett formulär samlar in information om filmen och two-way binding används för att uppdatera ett dataobjekt med reaktiva variabler. När användaren klickar på knappen "Lägg till" skickas en POST-förfrågan med den insamlade datan för att lägga till filmen på den externa webbtjänsten.
 
 Komponenten använder även emits för att kommunicera med sin föräldrakomponent. När en film har lagts till skickar AddMovie.vue ett meddelande till MovieView.vue, som då uppdaterar listan med filmer på webbapplikationen.
@@ -24,5 +24,5 @@ Komponenten använder även emits för att kommunicera med sin föräldrakompone
 För att installera och börja använda projektet, följ nedanstående steg:
 * Klona projektet från Github. För att göra detta, nagivera till den mapp där du vill spara projektet, skriv in "git clone" följt av Github-repots URL.
 * Installera beroenden. För att göra detta använd kommandot "npm install".
-* Kör projektet. För att göra detta använd kommandot "npm run start".
+* Kör projektet. För att göra detta använd kommandot "npm run dev".
 * Kommandot för att bygga projektet är "npm run build".
